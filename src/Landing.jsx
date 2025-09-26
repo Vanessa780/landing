@@ -3,7 +3,7 @@ import { Building2, Landmark, Info, LogIn, Languages, Moon, Sun, X, ChevronLeft,
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // ======= Catálogo de municipios (sustituye por los 84 completos) =======
-const MUNICIPIOS: string[] = [
+const MUNICIPIOS = [
   "Pachuca de Soto","Mineral de la Reforma","Tulancingo de Bravo","Tula de Allende","Tepeji del Río de Ocampo",
   "Huejutla de Reyes","Ixmiquilpan","Actopan","Tizayuca","Zempoala",
   "Atotonilco de Tula","Atotonilco el Grande","Apan","Tepeapulco","Mixquiahuala de Juárez",
